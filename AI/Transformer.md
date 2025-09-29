@@ -83,6 +83,36 @@ THe words closest to tower are in similar directions as you can all se
 
 ![[Pasted image 20250929184319.png]]
 ![[Pasted image 20250929184353.png]]
+in order ot find the vector for queen you know we can use similar vectors like man and woman ( qyeen femeinine version of king )
+
+In conclusion the model choose one direction to enclose geder information 
+
+![[Pasted image 20250929185035.png]]
+
+
+Similar examples 
+
+
+
+DOT PRODUCT OF TWO VECTORS CAN BE THOUGHT OF AS WELL THEY ALIGN 
+
+Geometrically dot product is positive when vectors are in similar directions 0 when perpendicular and negative when they point in opposite directiosn 
+
+![[Pasted image 20250929185558.png]]
+
+
+![[Pasted image 20250929185625.png]]
+
+From this we can quantively measure how plural a model finds a word . all of thses plot show the die=rect the place where the word is located
+
+
+
+THE EMBEDDING MATRIX IS THE FIRST PILE OF WEIGHTS IN OUR MODEL 
+
+IT SHOWS HOW EXACTLY OUR WORDS ARE TURBED INTO THE VECTROS NAH 
+
+
+
 
 
 
