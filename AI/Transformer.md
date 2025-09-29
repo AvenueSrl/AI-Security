@@ -44,5 +44,14 @@ This is how prmpts work - It starts as a seed value for the transformer tp build
 
 At a base in linear regression We have two parameters - this helps to guide  the predictions . Similarly gpt 3 has 175 billion parameters 
 
-Rememeber in all 
+Rememeber in all input processing its done by matrix processing . Any input say an image is converted into sch matrixes - maybe even high dimensional matrixes - no the inout has to formatted as a array of real numbers 
+
+When a higher dimensional array is being used for Input prcessesing its called tensor 
+
+
+You see in early ai models we had rigid parmeters sort of simple if else programs . However in these days we used tunable parameter and feed it large amounts of data. This provides the same kind of output but is much more versatile 
+
+These tunable parameters are also called weights or weighted sums 
+
+Usually thses waieghts are packaged together as components in a matrix vector product 
 
