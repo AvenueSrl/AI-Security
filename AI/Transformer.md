@@ -111,9 +111,19 @@ THE EMBEDDING MATRIX IS THE FIRST PILE OF WEIGHTS IN OUR MODEL
 
 IT SHOWS HOW EXACTLY OUR WORDS ARE TURBED INTO THE VECTROS NAH 
 
+![[Pasted image 20250929185856.png]]
+
+dimension x tokens give the exact weights 
 
 
+vectors contain more information than just the ord themselves . they encode information about the position of the word . they have the capacity to soak in  information .
 
+A vector can be progrssively be ulled and ushed being influenced by other vectirs giving it a more numanced meaning it can predict the next word in the context more efficiently . 
+
+Before attention block each vector is conceptualised to a single word with no regards for its cntext 
+
+
+The network ccan only process a fixed number f contexts at a time and it called context size ---- REMEMBER THE DUMB C.
 
 
 
