@@ -69,7 +69,23 @@ Each token is taken into a matrix ok. Each matrix has the values of each word - 
 
 Label embedding as We
 
-As we embed various words into these vectors and plot them .... as teh model finetunes itseld 
+As we embed various words into these vectors and plot them .... as teh model finetunes itself the directions i which eth vector points towards gets its own semantic meaning 
+
+But they are really complicated yeahj? gpt 3 has 12000 something dimensional vectors 
+
+
+![[Pasted image 20250929184059.png]]
+
+
+THe words closest to tower are in similar directions as you can all se
+
+![[Pasted image 20250929184304.png]]
+
+![[Pasted image 20250929184319.png]]
+![[Pasted image 20250929184353.png]]
+
+
+
 
 
 
