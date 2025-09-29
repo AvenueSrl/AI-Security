@@ -24,3 +24,18 @@ for eg model has different value in attention block in Machone learning model an
 
 Relevant meanings and how exactly that meaning should be updated,
 
+Meaning is somehow entirely encoded insode those vectors 
+
+
+After attention block all blocks go rhrough something callede multileavel perceptron. Multilevel perceptron or forward feed layer. 
+
+What exactky happens is that all vectors go through the same process parallely. This part can be summarized as each veator is asked a set of questions and the vectors are clasified accordingly 
+
+Inside the Vectors undergo a process very similar to Matrix multiplication 
+
+The vestors undergo attention blocks and mlp over and over agaon until the meaning is hopefully backed obto the last vector in the sequence 
+
+
+This last  vector is then taken out a series of steps are performed in order to get a  probablity distributin of all possible vectors 
+
+
