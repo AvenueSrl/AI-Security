@@ -149,7 +149,25 @@ Such a normalising function is callled softmax
 
 NOWWWWWWW why do we use the last matrix of the embedded matrix  exactly 
 
-Each vector in th
+Each vector in the final layer makes a prediction for the vector after it . THe combined predctuon of the all of them only we are taking at the very end 
+
+![[Pasted image 20250929192019.png]] 
+
+
+this matrix is called the unembedding matrix and we give it th abel Wu
+Unembedding has the same dimension as teh embedding 
+
+
+SOFTMAX 
+
+USUALLY WHEN YOU WANT A LIST OF VALUE TO BE USED FOR PREDICTION IN PROBABILTRY DENSITY FUNCTION NAAAA WE REQUIRE THE VALUE TO BE BETWEEN 0 AND 1. all the values should add up to 1.... HOWEVER WHEN YOU DO THE MATRIX VECTOR MULTIPLICAtion this is not true whatsoever .
+
+softmax is a way in which you turn a arbitrary list of numbers into you know valurs between o and 1. the higher number end u closer to one . 
+![[Pasted image 20250929192758.png]]
+
+heres how the softmax function works . You take e to rhe power of value anjd add 
+
+
 
 
 
