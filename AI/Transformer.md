@@ -38,4 +38,11 @@ The vestors undergo attention blocks and mlp over and over agaon until the meani
 
 This last  vector is then taken out a series of steps are performed in order to get a  probablity distributin of all possible vectors 
 
+This is how prmpts work - It starts as a seed value for the transformer tp build upon
+
+![[Pasted image 20250929180933.png]]
+
+At a base in linear regression We have two parameters - this helps to guide  the predictions . Similarly gpt 3 has 175 billion parameters 
+
+Rememeber in all 
 
