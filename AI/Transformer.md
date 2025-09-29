@@ -165,7 +165,18 @@ USUALLY WHEN YOU WANT A LIST OF VALUE TO BE USED FOR PREDICTION IN PROBABILTRY D
 softmax is a way in which you turn a arbitrary list of numbers into you know valurs between o and 1. the higher number end u closer to one . 
 ![[Pasted image 20250929192758.png]]
 
-heres how the softmax function works . You take e to rhe power of value anjd add 
+heres how the softmax function works . You take e to rhe power of value and divide it to the sum of all e to the power of x value . this will  normalize it ok 
+![[Pasted image 20250929193050.png]]
+
+
+Heres how temperature works it is the denominator in the softmax function. When the T is large  more weight its given to smaller values you know its adds in a little more spice. Less T moeans the model is more predictabl e
+
+
+that +6.0 -5.0 inputs are called AS LOGITS OK
+
+
+
+WHEN T IS WAY TOO LARGE THE MODEL DELVES INTO NONSENSE
 
 
 
