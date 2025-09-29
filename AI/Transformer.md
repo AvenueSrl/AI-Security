@@ -123,7 +123,35 @@ A vector can be progrssively be ulled and ushed being influenced by other vectir
 Before attention block each vector is conceptualised to a single word with no regards for its cntext 
 
 
-The network ccan only process a fixed number f contexts at a time and it called context size ---- REMEMBER THE DUMB C.
+The network ccan only process a fixed number f contexts at a time and it called context size ---- REMEMBER THE DUMB C.AI MODELS?/
+
+
+Conetxt size limits how much  words a transformer can incorporate when its makeing the rediction of the net word 
+
+Remember at the very end we want a probability distribution of the next word ![[Pasted image 20250929191112.png]]
+
+
+Over here a well trained model on HP wil look at th key words or tokens and give high prediction for snape .... Lets see hoe this ahppens 
+
+
+![[Pasted image 20250929191223.png]]
+
+
+
+Firts another vector is used that maps the very last vector to the vocabulary matrix of the LLM . Each token has a value in that matrix 
+
+Then theres a function that normalises this into a probability distribution 
+![[Pasted image 20250929191500.png]]
+
+
+Such a normalising function is callled softmax
+
+
+NOWWWWWWW why do we use the last matrix of the embedded matrix  exactly 
+
+Each vector in th
+
+
 
 
 
