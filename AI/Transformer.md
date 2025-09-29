@@ -55,3 +55,21 @@ These tunable parameters are also called weights or weighted sums
 
 Usually thses waieghts are packaged together as components in a matrix vector product 
 
+The weights are the actual brain - they are the one learned  dueing training 
+
+All LLMS have a predefined list of vocabulary 
+
+![[Pasted image 20250929183237.png]]
+
+
+
+Each token is taken into a matrix ok. Each matrix has the values of each word - it starts random but soon it changes according to context - remember attention blocks?
+
+![[Pasted image 20250929183424.png]]
+
+Label embedding as We
+
+As we embed various words into these vectors and plot them .... as teh model finetunes itseld 
+
+
+
