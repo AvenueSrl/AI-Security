@@ -76,9 +76,21 @@
               "icon": "lucide-file",
               "title": "Transformer"
             }
+          },
+          {
+            "id": "717cfeaca4c5189a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -227,7 +239,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0087d258a93eba37",
+  "active": "717cfeaca4c5189a",
   "lastOpenFiles": [
     "Pasted image 20250929193050.png",
     "Pasted image 20250929192758.png",
