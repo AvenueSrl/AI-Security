@@ -97,6 +97,18 @@ nOW HOW DO THSES WORDS COMMUNICATE AND INFLUENCE EACH OTHER ??
 ONE STRAIGHTFORWARD WAY IS TO JUTS A VALUE MATRIX - tHE FIRST ENBEDDING IS MUTIPLIED WITH THE VALUE MATRIX AND THAT RESULT IS ADDED TO THE SECIBD MATRIX 
 
 
-![[Pasted image 20251006182739.png]]
 
 
+
+![[Pasted image 20251006182912.png]]
+THE VALUE VECTOR IS MUTIPLIED IN THE ATTENTION BLOCK AND THEN ALL OF THEM ARE ADDED TO GET A SPECIAL MATRKX. tHIS SOECIAL MATRIX WHEN ADDED TO THE ORIGINAL MATRIX PRODUCES A EMBEEDING IN THE DIRECTION OF BOTH THE DESRIED EMBEDDING 
+
+![[Pasted image 20251006183115.png]]
+
+THIS addition takes place acriss all embedding and moving out would we create more refined embeddings ... Thi whole process is calked one head of attention 
+
+
+This is self attentuon head 
+
+
+Cross attention head involves models of multiple languages parallel 
