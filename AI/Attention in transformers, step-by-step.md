@@ -111,4 +111,12 @@ THIS addition takes place acriss all embedding and moving out would we create mo
 This is self attentuon head 
 
 
-Cross attention head involves models of multiple languages parallel 
+Cross attention head involves models of multiple languages . Parallel processojb 
+Cross attention is identtical only difference is that the key and query maps work on different dstaasets 
+
+In cross typically no masking 
+
+Multiheaded we do many of the self attntion in parallel 
+
+All value up matrix are stapled in one big output matrix 
+
