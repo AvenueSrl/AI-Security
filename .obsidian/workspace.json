@@ -81,16 +81,32 @@
             "id": "717cfeaca4c5189a",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "AI/Transformer.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "icon": "lucide-file",
+              "title": "Transformer"
+            }
+          },
+          {
+            "id": "1c2a69bf0b8dad37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/Attention in transformers, step-by-step.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Attention in transformers, step-by-step"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -239,8 +255,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "717cfeaca4c5189a",
+  "active": "1c2a69bf0b8dad37",
   "lastOpenFiles": [
+    "AI/Transformer.md",
+    "AI/Attention in transformers, step-by-step.md",
+    "Introduction to Computer Engineering and Science.md",
     "Pasted image 20250929193050.png",
     "Pasted image 20250929192758.png",
     "Pasted image 20250929192019.png",
@@ -251,9 +270,6 @@
     "Pasted image 20250929185625.png",
     "Pasted image 20250929185558.png",
     "Pasted image 20250929185035.png",
-    "Pasted image 20250929184353.png",
-    "Introduction to Computer Engineering and Science.md",
-    "AI/Transformer.md",
     "AI",
     "How a computer actually works.md",
     "COMPUTER ARITHMETIC FOR BEGINNERS.md",
