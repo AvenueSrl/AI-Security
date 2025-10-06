@@ -21,4 +21,11 @@ The true behaviour is hard to understabd cause youre tweaking a lot of parameter
 
 For example over here for the first query matrix youre taking a noun figuring out the adjective in front of it and then computing all that info into a matrix smaller than the actual embedding matrix 
 
+![[Pasted image 20251006175522.png]]
+
+This query matrix is the product of the matrix Wq with embedded matrix 
+
+
+the entries of wq are the parameters of the model 
+
 
