@@ -28,4 +28,23 @@ This query matrix is the product of the matrix Wq with embedded matrix
 
 the entries of wq are the parameters of the model 
 
+Theres a second type of matrix called the key matrix which you multiply by each one of the embeddings yeaahhh
 
+
+Keys match the queries when they closely align with each other 
+
+To measure how well each key matches a query we use dot product of key query 
+
+The larger the dot product the bwtter the key alogns wth the query - This is called Attending to 
+
+Small or  negative means they are unrelated to each other 
+
+![[Pasted image 20251006180345.png]]
+
+THis key query calculation basically tells us how relavant each word is to influence the other word in the context 
+
+Now as you cn see we dont want a scattered values for - infinity to + infinity
+
+We need to normalise it , Basically convert it to a proo=bality distribution form 0 to 1 and when you add all of the values we need to get 1 
+
+So we compute a softmax along all of these columns 
