@@ -73,3 +73,30 @@ this mutliple predictions happen parallely .
 
 One important thing is that you ont allow later words to influence earlier words ans that would  nlt really be training?
 
+![[Pasted image 20251006181820.png]]
+
+
+To prevent this we want the values that influence the earlier words from the later words to be somehow be foeced to 0.
+
+You cant just set it to 0 as it would unnormalize it. So instead you put them as negative infity so after softmaxing they would ayutomatically be turned to 0 and reamin normalized 
+
+
+THIS PROCESS IS CALLED MASKING 
+
+
+ATTENTION PATTERNS SIZE IS EQUAL TO THE SQUARE OF THE CONGTEXT SIZE --- WHICH IS CONTEXT SIZE IS A HUGE BOTTLE NECK FOR LLMS 
+
+![[Pasted image 20251006182355.png]]
+
+
+THESE WERE BUILT TO MAKE TGE CONTEXT SIZE MORE SCALABLE 
+
+
+nOW HOW DO THSES WORDS COMMUNICATE AND INFLUENCE EACH OTHER ??
+
+ONE STRAIGHTFORWARD WAY IS TO JUTS A VALUE MATRIX - tHE FIRST ENBEDDING IS MUTIPLIED WITH THE VALUE MATRIX AND THAT RESULT IS ADDED TO THE SECIBD MATRIX 
+
+
+![[Pasted image 20251006182739.png]]
+
+
