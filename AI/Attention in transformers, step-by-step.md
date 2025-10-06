@@ -48,3 +48,28 @@ Now as you cn see we dont want a scattered values for - infinity to + infinity
 We need to normalise it , Basically convert it to a proo=bality distribution form 0 to 1 and when you add all of the values we need to get 1 
 
 So we compute a softmax along all of these columns 
+![[Pasted image 20251006180815.png]]
+
+After softmaxing we get te attention pattern much better reprsentatiob 
+
+![[Pasted image 20251006180950.png]]
+
+Here Q is for querys K is for keys okkkk..... 
+
+kTq is the compact way to represent all the dot products of keys and queries ...
+
+
+for numerical stability we divide all the dot pdts of the square root of the dimension of that query space 
+
+
+During the training process the mnodel and oarameters are tuned deoending on how high the probabilty is given  to the true next word of the training oassage 
+
+
+Apparently the efficiency pf the model increases when you make it predict from the beginning and build upon it like here 
+
+![[Pasted image 20251006181517.png]]
+
+this mutliple predictions happen parallely .
+
+One important thing is that you ont allow later words to influence earlier words ans that would  nlt really be training?
+
