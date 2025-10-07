@@ -177,5 +177,17 @@ Like i said after passing through the ReTU the neuron is said to be active of th
 
 ![[Pasted image 20251007182944.png]]
 
-After the Rel function we  again multiply the vector bu a large matrix then add the bias vector..... Here after doing this nah the resulting matrix is bakc t
+After the Rel function we  again multiply the vector bu a large matrix then add the bias vector..... Here after doing this nah the resulting matrix is bakc to the rginal embedding matrix value 
+
+Here since its reduced we can call this large matrix and down scaler 
+
+We can think of it here as each column of the down scaler is dot produted  with the row. 
+
+
+Heres how it works when the first value is 1 it corresponds to Michael Jordan then that particlaur neuron is active. Then we'll add that neuron value to the final result 
+
+![[Pasted image 20251007183858.png]]
+
+
+
 
