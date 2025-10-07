@@ -26,4 +26,19 @@ IN mlp all of thses happen parallely ok . for all vector sequences ... In short 
 
 For example here you want to store the fact MJ plays Basketball
 
-Maybe in the original vector yoyve got info about MJ . After the MLP operations the operation vector might info include info somehwat connected to basketball. Now when iriginal vector and the operation vector gets added the final result vecot contains ALL INFO ,,,, MJ and 
+Maybe in the original vector yoyve got info about MJ . After the MLP operations the operation vector might info include info somehwat  - It will have direction info corresponding to the bare vector basketball connected to basketball. Now when iriginal vector and the operation vector gets added the final result vecot contains ALL INFO ,,,, MJ and Basketall 
+
+![[Pasted image 20251007175327.png]]
+
+First step in the mlp the original vector gets multiplied with a very large matrix - this matrix contains ontains all the model parameters used to tune the model ok 
+![[Pasted image 20251007175540.png]]
+
+
+Think of each row of the model parameter matrix as its own vector and we are doing dot product eith the embedding ( which is the original vector
+
+![[Pasted image 20251007175811.png]]
+
+For example here we can see that only if the vector encodes both MICHAEL AND JORDAN will its value be 2 otherwise when the other vetcors are checked thier values will be in 1 or less than 1 . Ok
+
+Similalry you can think of the other Rows asing  other different qyestionsabout the nature of the inqu
+
