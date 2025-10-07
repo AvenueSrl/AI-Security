@@ -188,6 +188,12 @@ Heres how it works when the first value is 1 it corresponds to Michael Jordan th
 
 ![[Pasted image 20251007183858.png]]
 
+The activation of a neuron tells you how exactly a given vector aligns with the direction of a desired THING - God i suck at english 
 
+
+Coulmns of the secod matrix tekll you what will be added to that neuron if it does end u being active 
+
+
+Until now when we think we of a ector we think of it s it cleanly encodes a a sibgle word
 
 
