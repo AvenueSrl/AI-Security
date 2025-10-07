@@ -164,3 +164,18 @@ A comman non linear function maps the negative number to 0 and the positive numb
 
 Models also Something called Gelu - WHich is the similar but have a smoother shape compared 
 
+Also in the previous exmaple nah After adding the bias for this example the top value fo the vector is 1 f the vectr corresponds to michael jordan 
+
+Basically this Relu acts like a AND gate - Itll check whether its actually Michael jordan or not .
+
+![[Pasted image 20251007182505.png]]
+
+
+Usually representation of mlps reprsent this matrix multiplication  and relu fucntion . 
+
+Like i said after passing through the ReTU the neuron is said to be active of that First valueo in the vector is 1 or else its inactive if the value is anything else (0)
+
+![[Pasted image 20251007182944.png]]
+
+After the Rel function we  again multiply the vector bu a large matrix then add the bias vector..... Here after doing this nah the resulting matrix is bakc t
+
