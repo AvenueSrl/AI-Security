@@ -151,7 +151,16 @@ In short, the **bias is a crucial, trainable parameter that gives each neuron in
 ![[Pasted image 20251007180746.png]]
 
 Now there is  a terrible problem 
-As we know the present process is extremely linear. IF our vector is high eniugh it might get triggered by similar yet totally unneeded  vectors lik
+As we know the present process is extremely linear. IF our vector is high eniugh it might get triggered by similar yet totally unneeded  vectors like in this case Alexis jordan and what not ..
 
 
+To prevent we need something that provide a concrete anwer whether the given vector is Michael jordan r not .  To d this we pass this vector  through some Non linear function RELU 
+
+![[Pasted image 20251007181323.png]]
+
+A comman non linear function maps the negative number to 0 and the positive numbers remain unchanged
+
+![[Pasted image 20251007181524.png]] 
+
+Models also Something called Gelu - WHich is the similar but have a smoother shape compared 
 
