@@ -194,6 +194,21 @@ The activation of a neuron tells you how exactly a given vector aligns with the 
 Coulmns of the secod matrix tekll you what will be added to that neuron if it does end u being active 
 
 
-Until now when we think we of a ector we think of it s it cleanly encodes a a sibgle word
+Until now when we think we of a ector we think of it s it cleanly encodes a a sibgle word say MIchael 
+
+But in reality no neyron encode anything cleanly 
+
+
+You see according to this 
+
+![[Pasted image 20251007185733.png]]
+
+
+The number of vectors that you can crm in a very space incleases expinentially as the dimension increases
+
+Hence so as this is why neural netwrks ar hard to undertsna dyet can be scaled up pretty quickly . 
+Case now in higher dimensions you can now store a lot of info in a small space ... in this case youre strng between 89 to 91 degress or vectors that are not excatly perperndiclaur bt heanrly perpendicular 
+
+
 
 
