@@ -1,5 +1,5 @@
 
-Look forst a noisy imahe s extracted ok and then its apassed through a transformer and you get a slightly clear yet still noisy  image . The noisy image result is added to the original noise and this new model is then sent back into the trasgormer this time itll provide a clearer image 
+Look forst a noisy image is  extracted ok and then its apassed through a transformer and you get a slightly clear yet still noisy  image . The noisy image result is added to the original noise and this new model is then sent back into the trasgormer this time itll provide a clearer image 
 
 Eventually i suppose the noise is extemely random 
 
@@ -10,3 +10,5 @@ it basically collarbotes both image and its correpsonding meaning say in a high 
 
 
 At a high leavel Diffusion Models are trained to remove noise from a image alright 
+
+Diffusion models are kind of inspired by diffusion process in physics 
