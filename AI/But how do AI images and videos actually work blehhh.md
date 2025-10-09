@@ -69,4 +69,12 @@ Imagie youre image is represented like this
 
 When you add random noise to an image youre effetively chsing the pixels position by a random amount, Now how this works is similar to the motion of a diffesion object - something along the lines of brownian motion ?
 
+What we are essential doing here is that ![[Pasted image 20251009190912.png]]
 
+
+As random noise is added youre essential sending all the crresponding pixels of your image in random drections. Now your model is supposed to reveserse back this unrderered mess into a ordered image 
+
+![[Pasted image 20251009191320.png]]
+
+
+But how does the model know how to reverse the randomised movement .. Suppose 
