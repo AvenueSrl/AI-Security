@@ -33,4 +33,17 @@ For related the CLIP aims to maximize and for Unrealted CLIP aims to mimimize
 ![[Pasted image 20251009183357.png]]
 
 
-Over here we can see two vectors one corresponding tona man waering a hat and not waering a hat . Then a difference vector is calculated . now that vector and the cosine angle with other word evctors are found ... THis is will us classify this particular 
+Over here we can see two vectors one corresponding tona man waering a hat and not waering a hat . Then a difference vector is calculated . now that vector and the cosine angle with other word evctors are found ... THis is will us classify this particular image 
+
+You can train your bloody model based on pure ideas and conecpts conceptually and mathematically 
+
+However in our clip model this nly goes one way we can only map the vectors with teh various embedding in te higher simensional space 
+
+
+You cant exactly generate text and images from the mapped information 
+
+![[Pasted image 20251009184526.png]]
+
+How do denoising Diffusion Probabilistic Models work?
+
+During training input a clear mage is net first ... the model classifies it well . then 
