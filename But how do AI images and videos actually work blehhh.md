@@ -46,4 +46,14 @@ You cant exactly generate text and images from the mapped information
 
 How do denoising Diffusion Probabilistic Models work?
 
-During training input a clear mage is net first ... the model classifies it well . then 
+During training input a clear mage is net first ... the model classifies it well . then noise is added sent through a neural network and again the process repeats over and over again 
+
+Now during output generation From a noise the image is gotten then random noise is added then sent over in ghe neural network then its clered and rndom nlise is added nad gain sent for cleared 
+
+Howver in practisewhile trining something entirely different happens 
+
+We throught that the images are classifies step  by step with little by little random noise added .
+INstead they take a clean image X0 add a totally random random noise ( represented by epsilon)
+ and then the image is directly aske d t classify  it 
+
+And mreover the image is clear and crisp only if you add random noise when yure generating the
