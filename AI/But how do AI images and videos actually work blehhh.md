@@ -54,6 +54,19 @@ Howver in practisewhile trining something entirely different happens
 
 We throught that the images are classifies step  by step with little by little random noise added .
 INstead they take a clean image X0 add a totally random random noise ( represented by epsilon)
- and then the image is directly aske d t classify  it 
+ and then the image is directly aske d t classify  it . Like you add noise - a lot of noise comparatively asked it to classify it one go 
 
-And mreover the image is clear and crisp only if you add random noise when yure generating the
+And mreover the image is clear and crisp only if you add random noise when yure generating the image step by step . 
+
+
+![[Pasted image 20251009190131.png]]
+
+Imagine that each image pixel is plotted on a graph like this . Now mages are reposresnted in a specific way in a high dimensional graph 
+
+![[Pasted image 20251009190400.png]]
+
+Imagie youre image is represented like this 
+
+When you add random noise to an image youre effetively chsing the pixels position by a random amount, Now how this works is similar to the motion of a diffesion object - something along the lines of brownian motion ?
+
+
