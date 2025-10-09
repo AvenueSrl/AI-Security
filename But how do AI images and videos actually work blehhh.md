@@ -25,4 +25,12 @@ The objective of clip is maximize this correct correlation and  minimize the sel
 How do ou measure the similarlity f a text vector and a image vector - using the cosine similarity 
 ![[Pasted image 20251009182600.png]]
 
-The cosine Similarity basically tell you te cos angle btween two vectro in that higher  dime
+The cosine Similarity basically tell you te cos angle between two vector in that higher  dimensional space . The more alignd and siilar two vectros are thr more maximum the cos angle will be 
+
+
+For related the CLIP aims to maximize and for Unrealted CLIP aims to mimimize 
+
+![[Pasted image 20251009183357.png]]
+
+
+Over here we can see two vectors one corresponding tona man waering a hat and not waering a hat . Then a difference vector is calculated . now that vector and the cosine angle with other word evctors are found ... THis is will us classify this particular 
