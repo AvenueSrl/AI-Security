@@ -12,3 +12,17 @@ it basically collarbotes both image and its correpsonding meaning say in a high 
 At a high leavel Diffusion Models are trained to remove noise from a image alright 
 
 Diffusion models are kind of inspired by diffusion process in physics 
+
+So basically CLIP has one goal - Youre given a text - the vector encoding that text should be similar to the encoded vector that is given out of the text descripted image ...
+
+![[Pasted image 20251009182049.png]]
+
+
+In the CLIP Model when the vetros ofo the image captions are placed row by olumn ... the entries in a diagnol correspond to the crrect correlation . the others are incorreect . 
+
+The objective of clip is maximize this correct correlation and  minimize the selction of incorrect correlation 
+
+How do ou measure the similarlity f a text vector and a image vector - using the cosine similarity 
+![[Pasted image 20251009182600.png]]
+
+The cosine Similarity basically tell you te cos angle btween two vectro in that higher  dime
